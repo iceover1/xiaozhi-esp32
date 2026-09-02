@@ -3,9 +3,9 @@
     "target": "esp32s3",
     "builds": [
         {
-            "name": "bread-compact-wifi-lcd",
+            "name": "bread-compact-wifi-lcd-gc9a01",
             "sdkconfig_append": [
-                "CONFIG_LCD_ST7789_240X320=y"
+                "CONFIG_LCD_GC9A01_240X240=y"
             ]
         }
     ]
